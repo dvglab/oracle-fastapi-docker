@@ -22,8 +22,6 @@ COPY ./start.sh /start.sh
 
 RUN chmod +x /start.sh
 
-USER www-data
-
 COPY ./app /app
 
 WORKDIR /app/
