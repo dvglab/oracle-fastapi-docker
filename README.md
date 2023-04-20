@@ -12,4 +12,4 @@ https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker
 
 https://github.com/tiangolo/uvicorn-gunicorn-docker
 
-Added Oracle Instant Client and cx-Oracle lib, also upgrade python to v3.10.
+Added Oracle Instant Client and cx-Oracle lib, also upgrade python to v3.11.
