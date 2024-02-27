@@ -16,7 +16,7 @@ Added Oracle Instant Client and cx-Oracle lib, also upgrade python to v3.11.
 
 Version summary:
 ```
-Python versions: 3.7-3.11
+Python versions: 3.8-3.12
 Oracle Instant Client version: 19.18.0
 FastAPI version: 0.95
 uvicorn version: 0.21.1
