@@ -3,17 +3,17 @@ import subprocess
 import sys
 
 environments = [
-    {"NAME": "latest", "PYTHON_VERSION": "3.11"},
-    {"NAME": "python3.11", "PYTHON_VERSION": "3.11"},
-    {"NAME": "python3.10", "PYTHON_VERSION": "3.10"},
-    {"NAME": "python3.9", "PYTHON_VERSION": "3.9"},
-    {"NAME": "python3.8", "PYTHON_VERSION": "3.8"},
-    {"NAME": "python3.7", "PYTHON_VERSION": "3.7"},
-    {"NAME": "python3.11-slim", "PYTHON_VERSION": "3.11"},
-    {"NAME": "python3.10-slim", "PYTHON_VERSION": "3.10"},
-    {"NAME": "python3.9-slim", "PYTHON_VERSION": "3.9"},
-    {"NAME": "python3.8-slim", "PYTHON_VERSION": "3.8"},
-    {"NAME": "python3.7-slim", "PYTHON_VERSION": "3.7"},
+    {"NAME": "latest", "PYTHON_VERSION": "3.12.2"},
+    {"NAME": "python3.12.2",  "NAME_SHORT": "python3.12", "PYTHON_VERSION": "3.12.2"},
+    {"NAME": "python3.11.8",  "NAME_SHORT": "python3.11", "PYTHON_VERSION": "3.11.8"},
+    {"NAME": "python3.10.13", "NAME_SHORT": "python3.10", "PYTHON_VERSION": "3.10.13"},
+    {"NAME": "python3.9.18",  "NAME_SHORT": "python3.9",  "PYTHON_VERSION": "3.9.18"},
+    {"NAME": "python3.8.18",  "NAME_SHORT": "python3.8",  "PYTHON_VERSION": "3.8.18"},
+    {"NAME": "python3.12.2-slim",  "NAME_SHORT": "python3.12-slim", "PYTHON_VERSION": "3.12.2"},
+    {"NAME": "python3.11.8-slim",  "NAME_SHORT": "python3.11-slim", "PYTHON_VERSION": "3.11.8"},
+    {"NAME": "python3.10.13-slim", "NAME_SHORT": "python3.10-slim", "PYTHON_VERSION": "3.10.13"},
+    {"NAME": "python3.9.18-slim",  "NAME_SHORT": "python3.9-slim",  "PYTHON_VERSION": "3.9.18"},
+    {"NAME": "python3.8.18-slim",  "NAME_SHORT": "python3.9-slim",  "PYTHON_VERSION": "3.8.18"},
 ]
 
 start_with = os.environ.get("START_WITH")

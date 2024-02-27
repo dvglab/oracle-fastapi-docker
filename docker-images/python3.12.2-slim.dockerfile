@@ -1,9 +1,9 @@
-FROM python:3.11
+FROM python:3.12-slim
 
 WORKDIR    /opt/oracle
 
 RUN        apt-get update && apt-get install -y libaio1 wget unzip gcc \
-            && wget https://download.oracle.com/otn_software/linux/instantclient/1918000/instantclient-basiclite-linux.x64-19.18.0.0.0dbru.zip \
+            && wget https://download.oracle.com/otn_software/linux/instantclient/1922000/instantclient-basiclite-linux.x64-19.22.0.0.0dbru.zip \
             && unzip instantclient-basiclite-linux.*.zip \
             && rm -f instantclient-basiclite-linux.*.zip \
             && cd /opt/oracle/instantclient* \

@@ -6,7 +6,7 @@ use_tag="dvglab/oracle-fastapi-docker:$NAME"
 DOCKERFILE="$NAME"
 
 if [ "$NAME" == "latest" ] ; then
-    DOCKERFILE="python3.11"
+    DOCKERFILE="python3.12.2"
 fi
 
 docker build -t "$use_tag" --file "./docker-images/${DOCKERFILE}.dockerfile" "./docker-images/"
